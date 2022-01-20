@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">         
+   <!-- add icon link -->
+        <link rel = "shortcut icon" href = "F:\study\sem4\wt\practicals\prc10\770b805d5c99c7931366c2e84e88f251.png"  type = "image/x-icon">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">  
+<title>WEATHER APP</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+<div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+<nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+        <a href="index.html" class="mr-5 hover:text-gray-900">WEATHER</a>
+	<a href="https://indianexpress.com/section/weather/" class="mr-5 hover:text-gray-900">NEWS</a>
+	<a href="https://mausam.imd.gov.in/" class="mr-5 hover:text-gray-900">WEBSITE</a>
+        <a href="signup.html" class="mr-5 hover:text-gray-900">SIGN UP</a>
+</nav>
+</div>
+  <div class="app-wrap">
+    <header>
+      <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city..." />
+    </header>
+    <main>
+      <section class="location">
+        <div class="city">Washington, D.C.</div>
+        <div class="date">THURSDAY 6 MAY 2021</div>
+      </section>
+      <div class="current">
+        <div class="temp">15<span>°c</span></div>
+        <div class="weather">Sunny</div>
+        <div class="hi-low">12°c / 18°c</div>
+      </div>
+    </main>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
